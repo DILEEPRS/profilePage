@@ -7,9 +7,21 @@ let Nav = () => {
           <p className="px-2 text-xs text-white lg:text-sm ">
             Update your information and find out how its used
           </p>
-          <p className=" text-xs px-2 text-white text-end lg:text-sm my-5 md:my-7 ">
+
+          <label
+            htmlFor="profile-photo-input"
+            class="block text-xs p-2 text-white text-end lg:text-sm my-5 md:my-7 "
+          >
             Upload Cover Photo
-          </p>
+          </label>
+          <input
+            className="hidden"
+            id="profile-photo-input"
+            type="file"
+            name="profile-photo"
+            accept="image/*"
+            
+          ></input>
         </nav>
       </div>
     </div>
