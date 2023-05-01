@@ -25,10 +25,10 @@ let Form = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center md:flex-row ">
+    <div className="flex flex-col  md:flex-row items-center ">
       <div className="w-[30%] flex flex-col gap-3 ml-5 ">
         <img
-          className="w-[96px] h-[96px] align-center justify-center inline-block  "
+          className="w-[96px] h-[96px] items-center  "
           src="https://signup.com/mobileweb/2.0/images/build/mobile-organizers.png"
           alt="alt"
         />
