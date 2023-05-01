@@ -26,7 +26,7 @@ let Form = () => {
 
   return (
     <div className="flex flex-col  md:flex-row items-center ">
-      <div className="w-[30%] flex flex-col gap-3 ml-5 ">
+      <div className="w-[30%] flex flex-col gap-3 ml-5 item-center">
         <img
           className="w-[96px] h-[96px] items-center  "
           src="https://signup.com/mobileweb/2.0/images/build/mobile-organizers.png"
@@ -43,7 +43,7 @@ let Form = () => {
           accept="image/*"
         ></input>
         <span
-          type="text"
+          
           className=" border  border-gray-300 bg-gray-50 text-gray-900 text-sm rounded-lg w-[240px]    "
         >
           <img
