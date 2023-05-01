@@ -32,7 +32,16 @@ let Form = () => {
           src="https://signup.com/mobileweb/2.0/images/build/mobile-organizers.png"
           alt="alt"
         />
-        <p className="w-[160px]">Upload Photo </p>
+        <label htmlFor="profile-photo-input" class="custom-file-upload">
+          Upload Profile Photo
+        </label>
+        <input
+          className="hidden"
+          id="profile-photo-input"
+          type="file"
+          name="profile-photo"
+          accept="image/*"
+        ></input>
         <span
           type="text"
           className=" border  border-gray-300 bg-gray-50 text-gray-900 text-sm rounded-lg w-[240px]    "
