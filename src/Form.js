@@ -25,16 +25,14 @@ let Form = () => {
   };
 
   return (
-    <div className="flex flex-col  md:flex-row items-center ">
-      <div className="w-[30%] flex flex-col gap-3 ml-5 item-center">
+    <div className=" flex flex-col items-center md:flex-row ">
+      <div className="w-[30%]  gap-3  flex flex-col items-center  ">
         <img
-          className="w-[96px] h-[96px] items-center  "
+          className="w-[96px] h-[96px] "
           src="https://signup.com/mobileweb/2.0/images/build/mobile-organizers.png"
           alt="alt"
         />
-        <label htmlFor="profile-photo-input" class="custom-file-upload">
-          Upload Profile Photo
-        </label>
+        <label htmlFor="profile-photo-input">Upload Profile Photo</label>
         <input
           className="hidden"
           id="profile-photo-input"
@@ -42,16 +40,15 @@ let Form = () => {
           name="profile-photo"
           accept="image/*"
         ></input>
-        <span
-          
-          className=" border  border-gray-300 bg-gray-50 text-gray-900 text-sm rounded-lg w-[240px]    "
-        >
+
+        <span className=" border  border-gray-300 bg-gray-50 text-gray-900 text-sm rounded-lg w-[240px]    ">
           <img
             className="w-[30px] h-[30px] p-[4px] "
             src="https://cdn.iconscout.com/icon/free/png-512/free-facebook-1464523-1239437.png?f=avif&w=256"
             alt="fac"
           ></img>
         </span>
+
         <span className="border  border-gray-30 bg-gray-50 text-gray-900 text-sm rounded-lg w-[240px]   ">
           <img
             className="w-[30px] h-[30px] p-[4px]"
@@ -67,9 +64,9 @@ let Form = () => {
           ></img>
         </span>
       </div>
-      <div className="w-[70%] sm:flex   ">
+      <div className="w-[70%] flex items-center     ">
         <form onSubmit={handleSubmit}>
-          <div className="my-[20px] mx-[5px]   ">
+          <div className="my-[20px] flex items-center  ">
             <div>
               <div className="flex flex-col  md:flex-row gap-2">
                 <div>
