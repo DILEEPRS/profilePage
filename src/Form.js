@@ -25,8 +25,8 @@ let Form = () => {
   };
 
   return (
-    <div className=" flex flex-col items-center md:flex-row ">
-      <div className="w-[30%]  gap-3  flex flex-col items-center  ">
+    <div className=" flex flex-col items-center lg:flex-row ">
+      <div className="w-[30%]  gap-3  flex flex-col items-center ">
         <img
           className="w-[96px] h-[96px] "
           src="https://signup.com/mobileweb/2.0/images/build/mobile-organizers.png"
